@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 152751831216919454}
   - component: {fileID: -4602761890233956709}
   - component: {fileID: 909811618911171935}
+  - component: {fileID: 6740161220290048393}
   m_Layer: 0
   m_Name: Barrel75
   m_TagString: Untagged
@@ -191,3 +192,23 @@ MonoBehaviour:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
     - {fileID: 11400000, guid: 73558f0e371ba4b41bff17d21c6190a8, type: 2}
+--- !u!257 &6740161220290048393
+TargetJoint2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2580906175528830275}
+  m_Enabled: 0
+  serializedVersion: 4
+  m_EnableCollision: 1
+  m_ConnectedRigidBody: {fileID: 0}
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_BreakAction: 3
+  m_Anchor: {x: 0, y: 0}
+  m_Target: {x: -3.97, y: 0}
+  m_AutoConfigureTarget: 0
+  m_MaxForce: 7500
+  m_DampingRatio: 0.5
+  m_Frequency: 5
